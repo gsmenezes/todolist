@@ -1,11 +1,17 @@
-import React from 'react';
-import GlobalStyles from './Styles/GlobalStyle';
+import React from "react";
+import GlobalStyles from "./Styles/GlobalStyle";
+import FilterProvider from "./Services/Filter/Provider";
+import TasksProvider from "./Services/List/Provider";
 
 function App() {
   return (
     <>
-    <GlobalStyles />
-     <h1>Teste</h1>
+      <TasksProvider>
+        <FilterProvider>
+          <GlobalStyles />
+          <h1>Teste</h1>
+        </FilterProvider>
+      </TasksProvider>
     </>
   );
 }

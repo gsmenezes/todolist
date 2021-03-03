@@ -2,7 +2,7 @@ import React from "react";
 import GlobalStyles from "./Styles/GlobalStyle";
 import FilterProvider from "./Services/Filter/Provider";
 import TasksProvider from "./Services/List/Provider";
-import TasksList from './Pages/TasksList';
+import Home from './Pages/Home';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <TasksProvider>
         <FilterProvider>
           <GlobalStyles />
-          <TasksList />
+          <Home />
         </FilterProvider>
       </TasksProvider>
     </>

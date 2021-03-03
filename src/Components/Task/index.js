@@ -23,10 +23,10 @@ function Task({ id, completed, title, onModalOpen, onStatusUpdate, onDelete }) {
 
   return (
     <Container>
-      <span className={completed ? ".complete" : null}>{title}</span>
+      <span className={completed ? '.complete' : null}>{title}</span>
       <ControlButtons>
         <button onClick={handleModalOpen}>
-          <UpdateTitle />
+          <UpdateTitle/>
         </button>
         <input type="checkbox" checked={isChecked} onChange={handleChange} />
         <button onClick={handleDelete}>

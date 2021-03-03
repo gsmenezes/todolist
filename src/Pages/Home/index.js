@@ -1,15 +1,16 @@
 import React from "react";
 import TaskCreator from "../../Components/TaskCreator";
 import TasksFilter from "../../Components/TaskFilter";
+import TasksList from '../../Components/TasksList';
 
-function TasksList() {
+function Home() {
   return (
     <>
       <TaskCreator />
-      <main>List</main>
+      <TasksList />
      <TasksFilter />
     </>
   );
 }
 
-export default TasksList;
+export default Home;

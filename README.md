@@ -7,18 +7,6 @@
 <h1 align="center">To Do List - Test</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/gsmenezes/todo-test?color=56BEB8">
-
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/gsmenezes/todo-test?color=56BEB8">
-
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/gsmenezes/todo-test?color=56BEB8">
-
-  <img alt="Licença" src="https://img.shields.io/github/license/gsmenezes/todo-test?color=56BEB8">
-
-</p>
-
-
-<p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
@@ -75,6 +63,10 @@ $ yarn start
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 
+<p align="center">
+
 Feito com :heart: por <a href="https://github.com/gsmenezes" target="_blank">gi menezes</a>
+
+</p>
 
 &#xa0;

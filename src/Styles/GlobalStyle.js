@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
@@ -35,7 +35,23 @@ overflow: auto;
     font-weight: 500;
 }
 
-button {
+input {
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: #130e38;
+  width: 420px;
+  height: 30px;
+}
+
+input::placeholder{
+    color: #00aeef;
+    opacity: 0.4;
+  }
+
+button, select {
     cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
 }
 `;

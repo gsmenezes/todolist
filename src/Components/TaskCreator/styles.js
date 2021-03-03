@@ -19,19 +19,6 @@ export const Container = styled.div`
     gap: 10px;
   }
 
-  input {
-    width: 420px;
-    height: 30px;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-size: 15px;;
-  }
-
-  input::placeholder{
-    color: #00aeef;
-    opacity: 0.4;
-  }
-
   .error {
     font-size: 13px;
     font-weight: 600;
@@ -43,10 +30,8 @@ export const Container = styled.div`
     width: 180px;
     height: 30px;
     justify-self: center;
-    font-size: 15px;
     color: #FFFFFF;
     background-color: #130e38;
-    border-radius: 5px;
   }
   .submit-button:disabled{
     opacity: 0.5;

@@ -1,12 +1,10 @@
-<div align="center" id="top"> 
+<div align="center" id="top">
   <img src="./.github/app.gif" alt="Todo Test" />
 
   &#xa0;
-
-  <!-- <a href="https://todotest.netlify.com">Demo</a> -->
 </div>
 
-<h1 align="center">Todo Test</h1>
+<h1 align="center">To Do List - Test</h1>
 
 <p align="center">
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/gsmenezes/todo-test?color=56BEB8">
@@ -17,23 +15,11 @@
 
   <img alt="Licença" src="https://img.shields.io/github/license/gsmenezes/todo-test?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/gsmenezes/todo-test?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/gsmenezes/todo-test?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/gsmenezes/todo-test?color=56BEB8" /> -->
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Todo Test 🚀 Em construção...  🚧
-</h4> 
-
-<hr> -->
 
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
   <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
@@ -58,11 +44,9 @@ Sobre o seu projeto
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Javascript](https://www.javascript.com/)
+- [Styled Components](https://styled-components.com/)
 
 ## :white_check_mark: Pré requisitos ##
 
@@ -94,5 +78,3 @@ Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para m
 Feito com :heart: por <a href="https://github.com/gsmenezes" target="_blank">gi menezes</a>
 
 &#xa0;
-
-<a href="#top">Voltar para o topo</a>

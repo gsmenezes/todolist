@@ -29,6 +29,7 @@ function TaskModal({ id, onModalClose, onTitleUpdate, findTitle }) {
           <button className="close-button" onClick={onModalClose}>
             <CloseIcon />
           </button>
+          <p>Escreva o novo nome da tarefa:</p>
           <input
             type="text"
             placeholder="Novo título"

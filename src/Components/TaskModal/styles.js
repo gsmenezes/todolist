@@ -31,6 +31,11 @@ export const ModalTask = styled.div`
     gap: 10px;
   }
 
+  input {
+    border: 2px solid #130e38;
+    border-radius: 5px;
+  }
+
   .error {
     font-size: 13px;
     font-weight: 600;
@@ -49,18 +54,24 @@ export const ModalTask = styled.div`
     opacity: 0.5;
   }
 
-  .close-button{
-    width: 40px;
-    height: 40px;
+  .close-button {
+    width: 35px;
+    height: 35px;
     position: relative;
-    top: 10px;
-    right: 10px;
+    top: 0;
+    left: 95%;
     border-radius: 50%;
   }
 
-  svg{
-    width: 50%;
-    height: 50%;
+  svg {
+    width: 40%;
+    height: 40%;
     fill: #160f46;
   }
+
+  p{
+  font-size: 15px;
+    padding-bottom: 5px;
+    color: #130e38;
+}
 `;

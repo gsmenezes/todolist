@@ -1,10 +1,11 @@
 import * as tasksTypes from "./types";
+import uuid from "uuid/dist/v4";
 
 function reducer(state, action) {
   switch (action.type) {
     case tasksTypes.ADD_TASK:
       return state.concat({
-       id: '',
+        id: uuid(),
         title: action.payload.title,
         completed: false,
       });

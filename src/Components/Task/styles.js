@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.li `
+export const Container = styled.div `
 width: 540px;
 height: 30px;
 padding: 4px 10px;
@@ -11,7 +11,7 @@ align-content: center;
 border: 2px solid #130e38;
 border-radius: 5px;
 
-span .complete {
+.ok {
   text-decoration: line-through;
 }
 `;

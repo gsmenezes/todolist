@@ -1,8 +1,7 @@
 import React, { useCallback, useContext, useEffect, useState } from "react";
 import FilterContext from "../../Services/Filter/Context";
 import * as filterActions from "../../Services/Filter/actions";
-import TaskSelect from '../TaskSelect';
-
+import TaskSelect from "../TaskSelect";
 import { Container } from "./styles";
 
 function TasksFilter() {

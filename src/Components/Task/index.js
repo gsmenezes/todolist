@@ -7,7 +7,7 @@ function Task({ id, completed, title, onModalOpen, onStatusUpdate, onDelete }) {
   const [isChecked, setIsChecked] = useState(completed);
 
   const handleChange = useCallback((e) => {
-    setIsChecked(e.target.value);
+    setIsChecked(e.target.checked);
   }, []);
   useEffect(() => {
     onStatusUpdate(id, isChecked);
@@ -23,7 +23,7 @@ function Task({ id, completed, title, onModalOpen, onStatusUpdate, onDelete }) {
 
   return (
     <Container>
-      <span className={completed ? '.complete' : null}>{title}</span>
+      <span className={completed ? 'ok' : null}>{title}</span>
       <ControlButtons>
         <button onClick={handleModalOpen}>
           <UpdateTitle/>

@@ -7,7 +7,7 @@ import { Container } from "./styles";
 
 function TaskCreator() {
   const { dispatchToTasks } = useContext(ListContext);
-  const { getFieldProps, touched, errors, isValid, handleSubmit } = useFormik({
+  const { getFieldProps, errors, handleSubmit } = useFormik({
     initialValues: {
       title: "",
     },
@@ -35,8 +35,8 @@ function TaskCreator() {
           placeholder="Nova tarefa"
           ref={inputTitle}
         />
-        {touched.title && errors.title ? <small className="error">{errors.title}</small> : null}
-        <button type="submit" className="submit-button" disabled={!isValid}>
+        {errors.title ? <small className="error">{errors.title}</small> : null}
+        <button type="submit" className="submit-button">
           Adicionar tarefa
         </button>
       </form>

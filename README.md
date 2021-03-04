@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="./.github/app.gif" alt="Todo Test" />
+  <img src="" alt="Todo Test" />
 
   &#xa0;
 </div>
@@ -20,13 +20,14 @@
 
 ## :dart: Sobre ##
 
-Sobre o seu projeto
+O projeto consiste em um CRUD de tarefas, onde também é possível filtrá-las por Status.   
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
+:heavy_check_mark: Adicionar tarefa;\
+:heavy_check_mark: Editar tarefa;\
+:heavy_check_mark: Filtrar tarefas - todas, pendentes e concluídas;\
+:heavy_check_mark: Excluir tarefa;
 
 ## :rocket: Tecnologias ##
 

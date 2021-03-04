@@ -1,6 +1,4 @@
 <div align="center" id="top">
-  <img src="../public/screenshot.png" alt="Todo Test" />
-
   &#xa0;
 </div>
 
@@ -71,3 +69,7 @@ Feito com :heart: por <a href="https://github.com/gsmenezes" target="_blank">gi 
 </p>
 
 &#xa0;
+
+ ![Print da tela](/public/screenshot.png)
+ ![Print da tela](/public/screenshot2.png)
+ ![Print da tela](/public/screenshot3.png)

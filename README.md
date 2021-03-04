@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="" alt="Todo Test" />
+  <img src="../public/screenshot.png" alt="Todo Test" />
 
   &#xa0;
 </div>
@@ -20,7 +20,7 @@
 
 ## :dart: Sobre ##
 
-O projeto consiste em um CRUD de tarefas, onde também é possível filtrá-las por Status.   
+O projeto consiste em um CRUD de tarefas, onde também é possível filtrá-las por Status.
 
 ## :sparkles: Funcionalidades ##
 
